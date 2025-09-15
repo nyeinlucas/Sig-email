@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Email Signature Template</title>
+    <!--
+    ==========================
+    Editable Parameters (find/replace these tokens throughout the file):
+      Lee Lim Tai -> Full name
+      Head of Finance-> Job title / designation
+      lltai@pay2home.com-> Email address (used for both text and mailto: link)
+      +65  -> Phone number (displayed as text; add country code if needed)
+    ==========================
+    Tips:
+    - Replace tokens exactly as written (including % signs).
+    - Do not add scripts; many email clients block them.
+    - Keep image sizes as-is to preserve alignment across clients.
+    -->
+    <style>
+      /* Minimal styles only; many email clients strip advanced CSS */
+      .body-table { font-family:Arial,sans-serif; font-size:12px; line-height:16px; color:#000000; width:100%; max-width:600px; }
+      .wordmark    { display:block; border:0; outline:none; text-decoration:none; height:auto; }
+      .brand-logo  { display:block; border:0; outline:none; text-decoration:none; height:auto; }
+      .icon        { display:block; border:0; outline:none; text-decoration:none; height:auto; }
+      .divider-cell{ border-left:1px solid #cccccc; font-size:0; line-height:0; }
+      .small       { font-size:11px; color:#555555; }
+      .disclaimer  { font-size:10px; color:#777777; line-height:14px; padding-top:14px; font-style:italic; }
+      .strong      { font-weight:bold; }
+      a { color:#0a66c2; text-decoration:none; }
+    </style>
+  </head>
+  <body>
+    <table cellpadding="0" cellspacing="0" border="0" class="body-table">
+      <!-- Header / Wordmark -->
+      <tr>
+        <td colspan="3" style="padding:0 0 10px 0; text-align:left;">
+          <img src="https://www.pay2home.com/images/wandr_sig_2.png" alt="Wandr" width="200" class="wordmark">
+        </td>
+      </tr>
+
+      <!-- Name / Title / Contacts -->
+      <tr>
+        <td colspan="3" style="padding:0 0 4px 0; font-size:14px;" class="strong">
+          Lee Lim Tai
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" style="padding:0 0 8px 0; font-style: italic; font-size: 14px;" class="strong">
+          Head of Finance
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" style="padding:0 0 8px 0;">
+          <a href="lltai@pay2home.com">lltai@pay2home.com</a><br>
+          +65 
+        </td>
+      </tr>
+
+      <!-- Brands header -->
+      <tr>
+        <td colspan="2" style="padding:1px 0 0px 0; font-weight:bold;">
+          Our Brands:
+          <br><br>
+        </td>
+      </tr>
+
+      <!-- Brand logos row (tight spacing) -->
+      <tr>
+        <!-- Left brand (Pay2Home) -->
+        <td width="20%" align="center" valign="middle" style="padding:0;">
+          <img src="https://www.pay2home.com/images/pay2home_sig.png" alt="Pay2Home" width="140" class="brand-logo">
+        </td>
+
+        <!-- Divider (tight) -->
+        <!-- <td width="0%" class="divider-cell">&nbsp;</td> -->
+        <td width="1" style="border-left: 1px solid #000000;height:10px;">&nbsp;</td>
+
+
+        <!-- Right brand (Wandr-E) -->
+        <td width="20%" align="center" valign="middle" style="padding:0;">
+          <img src="https://www.pay2home.com/images/wandre_sig.png" alt="Wandr-E" width="130" class="brand-logo">
+        </td>
+      </tr>
+
+      <!-- Brand links row -->
+      <tr>
+        <td width="49%" align="center" style="padding:6px 0 0 0;">
+          <a href="https://www.pay2home.com">www.pay2home.com</a><br>
+          <span class="small">Click to follow Pay2Home</span>
+        </td>
+        <td width="1" style="border-left: 1px solid #000000;height:10px;">&nbsp;</td>
+
+        <td width="50%" align="center" style="padding:6px 0 0 0;">
+          <a href="https://www.wandr-e.com">www.wandr-e.com</a><br>
+          <span class="small">Click to follow Wandr-E</span>
+        </td>
+      </tr>
+
+      <!-- Brand-specific social icons row -->
+      <tr>
+        <!-- Pay2Home socials -->
+        <td width="49%" align="center" style="padding:8px 0 0 0;">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="padding-right:10px;">
+                <a href="https://www.facebook.com/Pay2Home">
+                  <img src="https://www.pay2home.com/images/facebook_sig.png" alt="Facebook" width="30" class="icon">
+                </a>
+              </td>
+              <td style="padding-right:10px;">
+                <a href="https://www.instagram.com/Pay2Home">
+                  <img src="https://www.pay2home.com/images/insta_sig.png" alt="Instagram" width="30" class="icon">
+                </a>
+              </td>
+              <td>
+                <a href="https://twitter.com/Pay2Home">
+                  <img src="https://www.pay2home.com/images/twit_sig.png" alt="X (Twitter)" width="30" class="icon">
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+
+        <!-- Divider align -->
+        <td width="1" style="border-left: 1px solid #000000;height:10px;">&nbsp;</td>
+
+        <!-- Wandr-E socials -->
+        <td width="50%" align="center" style="padding:8px 0 0 0;">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <td style="padding-right:10px;">
+                <a href="https://www.facebook.com/wandre.we">
+                  <img src="https://www.pay2home.com/images/facebook_sig.png" alt="Facebook" width="30" class="icon">
+                </a>
+              </td>
+              <td style="padding-right:10px;">
+                <a href="https://www.instagram.com/wandre_sg/">
+                  <img src="https://www.pay2home.com/images/insta_sig.png" alt="Instagram" width="30" class="icon">
+                </a>
+              </td>
+              <td>
+                <a href="https://x.com/wandr_e">
+                  <img src="https://www.pay2home.com/images/twit_sig.png" alt="X (Twitter)" width="30" class="icon">
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Disclaimer -->
+      <tr>
+        <td colspan="3" class="disclaimer">
+          <b>Disclaimer:</b><br>
+          Wandr Pte Ltd is a Major Payment Institution licensed by the Monetary Authority of Singapore.
+          P2H (Hong Kong) Pte Limited is a Money Service Operator licensed by the Customs &amp; Excise Department of Hong Kong.
+          Wandr and P2H (Hong Kong) operate under the Pay2Home and Wandr-E brands.
+          If you are a client of Pay2Home and Wandr-E, the contents of this e-mail are subject to the
+          <a href="https://www.pay2home.com/termsandconditions">Terms and Conditions</a>,
+          otherwise this communication is confidential and no liability, warranty or accuracy is accepted for its contents.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
